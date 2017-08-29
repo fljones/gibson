@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/daniel' => 'pages#daniel'
   get '/fearfully' => 'pages#fearfully'
   get '/foundation' => 'pages#foundation'
-  get '/gogAndMagog' => 'pages#gogandMagog'
+  get '/gogAndMagog' => 'pages#gogAndMagog'
   get '/hebrews' => 'pages#hebrews'
   get '/jerusalemStory' => 'pages#jerusalemStory'
   get 'jesusReturns' => 'pages#jesusReturns'
