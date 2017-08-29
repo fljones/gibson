@@ -1,3 +1,20 @@
 Rails.application.routes.draw do
   root 'welcome#index'
+  get '/abrahamOrTerah' => 'pages#abrahamOrTerah'
+  get '/daniel' => 'pages#daniel'
+  get '/fearfully' => 'pages#fearfully'
+  get '/foundation' => 'pages#foundation'
+  get '/gogAndMagog' => 'pages#gogandMagog'
+  get '/hebrews' => 'pages#hebrews'
+  get '/jerusalemStory' => 'pages#jerusalemStory'
+  get 'jesusReturns' => 'pages#jesusReturns'
+  get '/noVision' => 'pages#noVision'
+  get '/oldTestament' => 'pages#oldTestament'
+  get '/predestination' => 'pages#predestination'
+  get '/rainbow' => 'pages#rainbow'
+  get '/revelation' => 'pages#revelation'
+  get '/sevenPowers' => 'pages#sevenPowers'
+  get '/toGodBeTheGlory' => 'pages#toGodBeTheGlory'
+  get '/unveiling' => 'pages#unveiling'
 end
+
