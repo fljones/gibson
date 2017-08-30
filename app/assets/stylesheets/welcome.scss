@@ -17,27 +17,25 @@ h2, h1, h3 {
 
 #heading {
   background: rgba(135,116,84,0.9);
-  width: 1000px;
   margin: 50px auto 10px auto;
-  height: 200px;
-  padding: 25px 25px 25px 25px;
+  padding: 35px;
 }
 
 #article_list {
-  margin-right: auto;
   margin-left: auto;
-  width: 800px;
+  margin-right: auto;
+  text-align: center;
+}
 
+#article_list a {
+  text-decoration: none;
 }
 
 .article {
-  float: left;
-  width: 800px;
-  height: 150px;
   color: #FFFBF5;
+  max-width: 350px;
   background: rgba(135,116,84,0.9);
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 100px;
+  margin: 10px auto;
+  line-height: 48px;
 }
