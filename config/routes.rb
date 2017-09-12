@@ -16,5 +16,7 @@ Rails.application.routes.draw do
   get '/sevenPowers' => 'pages#sevenPowers'
   get '/toGodBeTheGlory' => 'pages#toGodBeTheGlory'
   get '/unveiling' => 'pages#unveiling'
+  get '/job' => 'pages#job'
+  get '/nephilim' => 'pages#nephilim'
 end
 
