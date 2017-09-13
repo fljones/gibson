@@ -9042,31 +9042,29 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 7, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 5, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post {
-  width: 800px;
   color: black;
   background-color: #EFE6D7;
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.5;
-  padding: 25px;
 }
 
-/* line 20, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 10, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.artContainer {
+  margin: 0 auto;
+}
+
+/* line 14, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h1 {
   color: black;
+  text-align: center;
 }
 
-/* line 24, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 19, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h2 {
   color: black;
 }
 
-/* line 28, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 23, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h3 {
   color: black;
   text-align: left;
@@ -9105,47 +9103,52 @@ h2, h1, h3 {
   text-align: center;
 }
 
-/* line 36, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 34, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 #article_list a {
   text-decoration: none;
 }
 
 /* unvisited link */
-/* line 41, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 39, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:link {
   color: #FFFBF5;
 }
 
 /* visited link */
-/* line 46, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 44, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:visited {
   color: #FFFBF5;
 }
 
 /* mouse over link */
-/* line 51, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 49, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:hover {
   color: #FFFBF5;
 }
 
 /* selected link */
-/* line 56, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 54, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:active {
   color: #FFFBF5;
 }
 
-/* line 60, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 58, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .article {
+  height: 50px;
   color: #FFFBF5;
-  max-width: 350px;
   background: rgba(135, 116, 84, 0.9);
   text-align: center;
   margin: 10px auto;
-  line-height: 48px;
 }
 
-/* line 69, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 66, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.article p {
+  line-height: 50px;
+}
+
+/* line 70, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .footer {
+  padding-top: 20px;
   text-align: center;
 }
 /*

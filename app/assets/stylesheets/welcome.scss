@@ -56,13 +56,15 @@ a:active {
 }
 
 .article {
+  height: 50px;
   color: #FFFBF5;
-  max-width: 350px;
-  background: black;
-  //background: rgba(135,116,84,0.9);
+  background: rgba(135,116,84,0.9);
   text-align: center;
   margin: 10px auto;
-  line-height: 48px;
+}
+
+.article p {
+  line-height: 50px;
 }
 
 .footer {
