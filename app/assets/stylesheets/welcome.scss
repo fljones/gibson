@@ -28,8 +28,6 @@ h2, h1, h3 {
 }
 
 #article_list {
-  //margin-left: auto;
-  //margin-right: auto;
   text-align: center;
 }
 
@@ -60,7 +58,8 @@ a:active {
 .article {
   color: #FFFBF5;
   max-width: 350px;
-  background: rgba(135,116,84,0.9);
+  background: black;
+  //background: rgba(135,116,84,0.9);
   text-align: center;
   margin: 10px auto;
   line-height: 48px;
