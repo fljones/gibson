@@ -3,16 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .post {
-  width: 800px;
   color: black;
   background-color: #EFE6D7;
-  text-align: left;
-  margin: 10px auto;
-  padding: 25px;
+}
+
+.artContainer {
+  margin: 0 auto;
 }
 
 .post h1 {
   color: black;
+  text-align: center;
 }
 
 .post h2 {
