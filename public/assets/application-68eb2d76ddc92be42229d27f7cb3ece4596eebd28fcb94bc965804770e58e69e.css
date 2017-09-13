@@ -9083,34 +9083,58 @@ html {
 /* line 13, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 body {
   background: none;
+  color: #FFFBF5;
 }
 
-/* line 17, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 18, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 h2, h1, h3 {
   color: #FFFBF5;
   text-align: center;
 }
 
-/* line 22, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 23, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 #heading {
   background: rgba(135, 116, 84, 0.9);
   margin: 50px auto 10px auto;
   padding: 35px;
-}
-
-/* line 28, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
-#article_list {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
-/* line 34, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 30, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+#article_list {
+  text-align: center;
+}
+
+/* line 36, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 #article_list a {
   text-decoration: none;
 }
 
-/* line 38, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* unvisited link */
+/* line 41, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+a:link {
+  color: #FFFBF5;
+}
+
+/* visited link */
+/* line 46, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+a:visited {
+  color: #FFFBF5;
+}
+
+/* mouse over link */
+/* line 51, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+a:hover {
+  color: #FFFBF5;
+}
+
+/* selected link */
+/* line 56, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+a:active {
+  color: #FFFBF5;
+}
+
+/* line 60, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .article {
   color: #FFFBF5;
   max-width: 350px;
@@ -9118,6 +9142,11 @@ h2, h1, h3 {
   text-align: center;
   margin: 10px auto;
   line-height: 48px;
+}
+
+/* line 69, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.footer {
+  text-align: center;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
