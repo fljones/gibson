@@ -9055,16 +9055,17 @@ th.hide-for-touch {
 
 /* line 14, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h1 {
+  padding: 60px 0 40px 0;
   color: black;
   text-align: center;
 }
 
-/* line 19, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 20, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h2 {
   color: black;
 }
 
-/* line 23, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+/* line 24, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
 .post h3 {
   color: black;
   text-align: left;
@@ -9134,15 +9135,24 @@ a:active {
 
 /* line 58, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .article {
+  height: 50px;
   color: #FFFBF5;
-  max-width: 350px;
-  background: black;
+  background: #877454;
   text-align: center;
   margin: 10px auto;
-  line-height: 48px;
 }
 
-/* line 68, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 66, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.article p {
+  line-height: 50px;
+}
+
+/* line 70, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.subtitle {
+  text-align: center;
+}
+
+/* line 74, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .footer {
   padding-top: 20px;
   text-align: center;
