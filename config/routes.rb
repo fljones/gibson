@@ -20,5 +20,6 @@ Rails.application.routes.draw do
   get '/job' => 'pages#job'
   get '/nephilim' => 'pages#nephilim'
   get '/appeal' => 'pages#appeal'
+  get '/desire' => 'pages#desire'
 end
 
