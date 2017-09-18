@@ -20,20 +20,14 @@ h2, h1, h3 {
   text-align: center;
 }
 
-#heading {
+.heading {
   background: rgba(135,116,84,0.9);
   margin: 50px auto 10px auto;
   padding: 35px;
   text-align: center;
 }
 
-#article_list {
-  text-align: center;
-}
 
-#article_list a {
-  text-decoration: none;
-}
 
 /* unvisited link */
 a:link {
@@ -61,10 +55,12 @@ a:active {
   background: rgba(135,116,84,1);
   text-align: center;
   margin: 10px auto;
+  border-radius: 30px;
 }
 
 .article p {
-  line-height: 50px;
+  line-height: 3;
+  font-size: 100%;
 }
 
 .subtitle {
