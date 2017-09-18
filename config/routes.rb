@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'welcome#index'
   get '/home' => 'welcome#index'
+  get '/about' => 'pages#about'
   get '/abrahamOrTerah' => 'pages#abrahamOrTerah'
   get '/daniel' => 'pages#daniel'
   get '/fearfully' => 'pages#fearfully'
