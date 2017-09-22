@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
     <title><%= content_for?(:title) ? yield(:title) : "The Works of Jim Gibson" %></title>
 
     <%= stylesheet_link_tag    "application" %>
@@ -11,13 +11,19 @@
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
-
+  <div class="row heading">
+    <div class="columns">
+      <h1>The Collected Writings of <br/>Jim Gibson</h1>
+    </div>
+  </div>
+  </div>
   <body>
 
     <%= yield %>
 
   </body>
   <br/>
+
   <div class="footer row">
     <div class="small-12 medium-12 large-12 columns">
       <a href="home">Home</a>&nbsp;-&nbsp;<a href="appeal">An Appeal To Reason</a>&nbsp;-&nbsp;<a href="mailto:jgibson1948@yahoo.com">Contact</a>

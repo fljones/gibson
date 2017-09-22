@@ -16,14 +16,22 @@ body {
 }
 
 h2, h1, h3 {
+  font-family: 'Eagle Lake', cursive;
   color: #FFFBF5;
   text-align: center;
 }
 
 .heading {
   background: rgba(135,116,84,0.9);
-  margin: 50px auto 10px auto;
-  padding: 35px;
+  margin: 15px auto 0px auto;
+  padding: 15px 35px;
+  text-align: center;
+}
+
+.heading-desc {
+  background: rgba(135,116,84,0.9);
+  margin: 0px auto 15px auto;
+  padding: 15px 35px;
   text-align: center;
 }
 
