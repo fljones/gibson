@@ -21,6 +21,54 @@ h2, h1, h3 {
   text-align: center;
 }
 
+/* unvisited link */
+a:link {
+  color: #FFFBF5;
+}
+
+/* visited link */
+a:visited {
+  color: #FFFBF5;
+}
+
+.header-button {
+  display: inline-block;
+  color: #877454;
+  background-color: #FFFBF5;
+  text-align: center;
+  border-radius: 30px;
+  width: 200px;
+  margin: 10px;
+}
+
+.header-button p {
+  padding: 10px 5px;
+  margin-bottom: 0px;
+}
+
+.header-button:hover {
+  color: #FFFBF5 !important;
+  background-color: #877454;
+}
+
+.header-button:hover p {
+  color: #FFFBF5;
+  background-color: #877454;
+}
+
+.header-button a:link {
+  color: #877454;
+}
+
+.header-button a:hover {
+  color: #FFFBF5;
+  background-color: #877454;
+}
+
+.header-button a:visited {
+  color: #877454;
+}
+
 .heading {
   background: rgba(135,116,84,0.9);
   margin: 15px auto 0px auto;
@@ -35,18 +83,8 @@ h2, h1, h3 {
   text-align: center;
 }
 
-/* unvisited link */
-a:link {
-  color: #FFFBF5;
-}
-
-/* visited link */
-a:visited {
-  color: #FFFBF5;
-}
-
 ///* mouse over link */
-.article:hover {
+.article-button:hover {
   color: #877454;
   background-color: #FFFBF5;
 }
@@ -60,7 +98,7 @@ a:active {
 
 }
 
-.article {
+.article-button {
   color: #FFFBF5;
   background-color: #877454;
   text-align: center;
@@ -68,12 +106,12 @@ a:active {
   border-radius: 30px;
 }
 
-.article p {
+.article-button p {
   padding: 10px 5px;
 
 }
 
-.article a:hover {
+.article-button a:hover {
   color: #877454;
   background-color: #FFFBF5;
 }
