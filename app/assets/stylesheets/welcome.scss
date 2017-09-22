@@ -12,29 +12,29 @@ html {
 
 body {
   background: none;
-  color: #FFFBF5;
+  color: #EFE6D7;
 }
 
 h2, h1, h3 {
   font-family: 'Eagle Lake', cursive;
-  color: #FFFBF5;
+  color: #EFE6D7;
   text-align: center;
 }
 
 /* unvisited link */
 a:link {
-  color: #FFFBF5;
+  color: #EFE6D7;
 }
 
 /* visited link */
 a:visited {
-  color: #FFFBF5;
+  color: #EFE6D7;
 }
 
 .header-button {
   display: inline-block;
   color: #877454;
-  background-color: #FFFBF5;
+  background-color: #EFE6D7;
   text-align: center;
   border-radius: 30px;
   width: 200px;
@@ -47,12 +47,12 @@ a:visited {
 }
 
 .header-button:hover {
-  color: #FFFBF5 !important;
+  color: #EFE6D7 !important;
   background-color: #877454;
 }
 
 .header-button:hover p {
-  color: #FFFBF5;
+  color: #EFE6D7;
   background-color: #877454;
 }
 
@@ -61,7 +61,7 @@ a:visited {
 }
 
 .header-button a:hover {
-  color: #FFFBF5;
+  color: #EFE6D7;
   background-color: #877454;
 }
 
@@ -74,24 +74,26 @@ a:visited {
   margin: 15px auto 0px auto;
   padding: 15px 35px;
   text-align: center;
+  border-radius: 15px;
 }
 
 .heading-desc {
   background: rgba(135,116,84,0.9);
-  margin: 0px auto 15px auto;
+  margin: 15px auto;
   padding: 15px 35px;
   text-align: center;
+  border-radius: 15px;
 }
 
 ///* mouse over link */
 .article-button:hover {
   color: #877454;
-  background-color: #FFFBF5;
+  background-color: #EFE6D7;
 }
 
 /* selected link */
 a:active {
-  color: #FFFBF5;
+  color: #EFE6D7;
 }
 
 .articles-left {
@@ -99,7 +101,7 @@ a:active {
 }
 
 .article-button {
-  color: #FFFBF5;
+  color: #EFE6D7;
   background-color: #877454;
   text-align: center;
   margin: 10px auto;
@@ -113,7 +115,7 @@ a:active {
 
 .article-button a:hover {
   color: #877454;
-  background-color: #FFFBF5;
+  background-color: #EFE6D7;
 }
 
 //Appeal to Reason Page Styling
