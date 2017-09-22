@@ -48,9 +48,11 @@ a:active {
   color: #FFFBF5;
 }
 
+.articles-left {
+
+}
+
 .article {
-  height: 50px;
-  display: block;
   color: #FFFBF5;
   background-color: #877454;
   text-align: center;
@@ -59,8 +61,8 @@ a:active {
 }
 
 .article p {
-  line-height: 3;
-  font-size: 100%;
+  padding: 10px 5px;
+
 }
 
 .article a:hover {

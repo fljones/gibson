@@ -9100,51 +9100,67 @@ h2, h1, h3 {
 }
 
 /* unvisited link */
-/* line 33, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 31, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:link {
   color: #FFFBF5;
 }
 
 /* visited link */
-/* line 38, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 36, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:visited {
   color: #FFFBF5;
 }
 
-/* mouse over link */
-/* line 43, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
-a:hover {
-  color: #FFFBF5;
+/* line 41, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.article:hover {
+  color: #877454;
+  background-color: #FFFBF5;
 }
 
 /* selected link */
-/* line 48, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 47, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 a:active {
   color: #FFFBF5;
 }
 
-/* line 52, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 55, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .article {
-  height: 50px;
   color: #FFFBF5;
-  background: #877454;
+  background-color: #877454;
   text-align: center;
   margin: 10px auto;
   border-radius: 30px;
 }
 
-/* line 61, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 63, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .article p {
-  line-height: 3;
-  font-size: 100%;
+  padding: 10px 5px;
 }
 
-/* line 66, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 68, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.article a:hover {
+  color: #877454;
+  background-color: #FFFBF5;
+}
+
+/* line 73, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .subtitle {
   text-align: center;
 }
 
-/* line 70, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+/* line 77, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.appeal a {
+  text-decoration: underline;
+  color: black;
+}
+
+/* line 82, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.appeal-img {
+  margin: 10px auto;
+  display: block;
+}
+
+/* line 87, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 .footer {
   padding-top: 20px;
   text-align: center;
