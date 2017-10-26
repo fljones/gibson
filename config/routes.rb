@@ -22,5 +22,6 @@ Rails.application.routes.draw do
   get '/nephilim' => 'pages#nephilim'
   get '/appeal' => 'pages#appeal'
   get '/desire' => 'pages#desire'
+  get '/nation' => 'pages#great_nation'
 end
 
