@@ -23,5 +23,6 @@ Rails.application.routes.draw do
   get '/appeal' => 'pages#appeal'
   get '/desire' => 'pages#desire'
   get '/nation' => 'pages#great_nation'
+  get '/walking' => 'pages#walking'
 end
 
