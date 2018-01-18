@@ -35,3 +35,29 @@
 .seven-img {
   float:right;
 }
+
+.caption {
+  padding: 18px 15px 40px 15px;
+}
+
+.caption p {
+  text-align: center;
+  font-size: small;
+  padding-top: 104px;
+}
+
+.caption a:link {
+  color: blue;
+}
+
+.caption a:hover {
+  color: red;
+}
+
+.caption a:visited {
+  color: black;
+}
+
+.caption a:active {
+  color: red;
+}
