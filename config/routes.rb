@@ -25,5 +25,6 @@ Rails.application.routes.draw do
   get '/nation' => 'pages#great_nation'
   get '/walking' => 'pages#walking'
   get '/light' => 'pages#light'
+  get '/wept' => 'pages#wept'
 end
 
