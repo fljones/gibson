@@ -9072,6 +9072,58 @@ th.hide-for-touch {
   color: black;
   text-align: left;
 }
+
+/* line 31, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.seven-list {
+  list-style-type: none;
+}
+
+/* line 35, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.seven-img {
+  float: right;
+}
+
+/* line 39, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption {
+  padding: 18px 15px 40px 15px;
+}
+
+/* line 43, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption p {
+  text-align: center;
+  font-size: small;
+  padding-top: 104px;
+}
+
+/* line 49, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption a:link {
+  color: blue;
+}
+
+/* line 53, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption a:hover {
+  color: red;
+}
+
+/* line 57, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption a:visited {
+  color: black;
+}
+
+/* line 61, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.caption a:active {
+  color: red;
+}
+
+/* line 65, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.self_image {
+  padding-bottom: 20px;
+}
+
+/* line 69, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.about p {
+  text-align: justify;
+}
 /* line 5, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 html {
   background: url("sunlight.jpg") no-repeat center center fixed;
