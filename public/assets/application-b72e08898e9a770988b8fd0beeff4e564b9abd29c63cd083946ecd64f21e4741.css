@@ -9114,6 +9114,16 @@ th.hide-for-touch {
 .caption a:active {
   color: red;
 }
+
+/* line 65, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.self_image {
+  padding-bottom: 20px;
+}
+
+/* line 69, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.about p {
+  text-align: justify;
+}
 /* line 5, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 html {
   background: url("sunlight.jpg") no-repeat center center fixed;
@@ -9275,6 +9285,12 @@ a:active {
 .footer {
   padding-top: 20px;
   text-align: center;
+}
+
+/* line 152, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.placeholder {
+  display: inline-block;
+  width: 25px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
