@@ -26,5 +26,6 @@ Rails.application.routes.draw do
   get '/walking' => 'pages#walking'
   get '/light' => 'pages#light'
   get '/wept' => 'pages#wept'
+  get '/samson' => 'pages#samson'
 end
 
