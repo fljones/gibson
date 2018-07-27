@@ -69,3 +69,15 @@
 .about p {
   text-align: justify;
 }
+
+.row p a:link {
+  color: blue;
+}
+
+.row p a:hover {
+  color: red;
+}
+
+.row p a:visited {
+  color: black;
+}
