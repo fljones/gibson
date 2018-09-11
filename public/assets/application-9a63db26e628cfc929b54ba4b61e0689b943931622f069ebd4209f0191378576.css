@@ -9124,6 +9124,26 @@ th.hide-for-touch {
 .about p {
   text-align: justify;
 }
+
+/* line 73, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.row p a:link {
+  color: blue;
+}
+
+/* line 77, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.row p a:hover {
+  color: red;
+}
+
+/* line 81, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.row p a:visited {
+  color: black;
+}
+
+/* line 85, /Users/fljones/dev/gibson/app/assets/stylesheets/pages.scss */
+.tesla {
+  text-align: right;
+}
 /* line 5, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
 html {
   background: url("sunlight.jpg") no-repeat center center fixed;
@@ -9285,6 +9305,12 @@ a:active {
 .footer {
   padding-top: 20px;
   text-align: center;
+}
+
+/* line 152, /Users/fljones/dev/gibson/app/assets/stylesheets/welcome.scss */
+.placeholder {
+  display: inline-block;
+  width: 25px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
