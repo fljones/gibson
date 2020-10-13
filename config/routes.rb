@@ -33,5 +33,6 @@ Rails.application.routes.draw do
   get '/in_search_of_god' => 'pages#in_search_of_god'
   get '/blessings' => 'pages#blessings'
   get '/healing' => 'pages#healing'
+  get '/at_the_well' => 'pages#at_the_well'
 end
 
